@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0e3f5f;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+}
+
+.hero h1 {
+    font-size: 150px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.content {
+    text-align: center;
+}
+
+.main-image {
+    width: 100%;
+    max-width: 80%;
+    margin: 40px 0;
+    border-radius: 15px;
+}
+
+.experience h2 {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.btn-journey {
+    background-color: #c6630e;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+.video-section {
+    margin: 50px 0;
+}
+
+.video {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.gallery {
+    margin: 50px 0;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-image {
+    border-radius: 15px;
+    width: 500px;
+    height: auto;
+}
+
+.why-choose-us {
+    margin: 50px 0;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.testimonial {
+    margin: 20px ;
+}
+
+blockquote {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.testimonial-image {
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.info-table {
+    margin: 50px 0;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #c6630e;
+}
